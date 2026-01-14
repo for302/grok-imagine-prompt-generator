@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     description: "Grok Imagine AI를 위한 무료 프롬프트 생성 도구. 500개 이상의 요소를 조합하여 한국어/영어 프롬프트를 실시간 생성.",
     images: [
       {
-        url: "/og-image.png",
+        url: "/images/kakao_thumb.jpg",
         width: 1200,
         height: 630,
         alt: "GROK Prompt Generator",
@@ -60,7 +60,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "GROK Prompt Generator - AI 이미지/영상 프롬프트 생성기",
     description: "Grok Imagine AI를 위한 무료 프롬프트 생성 도구",
-    images: ["/og-image.png"],
+    images: ["/images/kakao_thumb.jpg"],
   },
   alternates: {
     canonical: siteUrl,
