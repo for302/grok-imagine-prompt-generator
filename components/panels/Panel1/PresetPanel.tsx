@@ -6,6 +6,18 @@ import { getPresetsByMode, getPresetById } from '@/data/presets';
 import { PresetCard } from './PresetCard';
 import { ConfirmDialog } from '@/components/ui/ConfirmDialog';
 
+// 모바일에서 요소 선택 패널로 스크롤
+const scrollToElementPanel = () => {
+  if (typeof window !== 'undefined' && window.innerWidth < 768) {
+    setTimeout(() => {
+      const elementPanel = document.getElementById('element-panel');
+      if (elementPanel) {
+        elementPanel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }, 100);
+  }
+};
+
 export function PresetPanel() {
   const { mode, setMode, activePreset, isModified, loadPreset, favorites } = usePromptStore();
   const [pendingPreset, setPendingPreset] = useState<string | null>(null);
@@ -28,6 +40,7 @@ export function PresetPanel() {
       const preset = getPresetById(presetId);
       if (preset) {
         loadPreset(presetId, preset.selectedOptions);
+        scrollToElementPanel();
       }
     }
   };
@@ -37,6 +50,7 @@ export function PresetPanel() {
       const preset = getPresetById(pendingPreset);
       if (preset) {
         loadPreset(pendingPreset, preset.selectedOptions);
+        scrollToElementPanel();
       }
     }
     setShowConfirm(false);
@@ -44,7 +58,7 @@ export function PresetPanel() {
   };
 
   return (
-    <div className="h-full flex flex-col">
+    <div className="md:h-full flex flex-col">
       {/* 모드 토글 */}
       <div className="p-4 border-b border-[var(--border)]">
         <div className="flex rounded-lg overflow-hidden border border-[var(--border)]">
@@ -72,7 +86,7 @@ export function PresetPanel() {
       </div>
 
       {/* 프리셋 목록 */}
-      <div className="flex-1 overflow-y-auto p-4 space-y-6">
+      <div className="flex-1 md:overflow-y-auto p-4 space-y-6">
         {/* 즐겨찾기 섹션 */}
         {favoritePresets.length > 0 && (
           <div>

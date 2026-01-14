@@ -33,7 +33,7 @@ export function EnglishPromptPanel() {
   };
 
   return (
-    <div className="h-full flex flex-col">
+    <div className="md:h-full flex flex-col">
       <div className="p-4 border-b border-[var(--border)] flex items-center justify-between">
         <div>
           <h2 className="font-semibold">English Prompt</h2>
@@ -44,7 +44,7 @@ export function EnglishPromptPanel() {
         <button
           onClick={() => copyToClipboard(prompt)}
           disabled={!prompt}
-          className={`flex items-center gap-2 px-3 py-1.5 rounded-lg text-sm font-medium transition-all ${
+          className={`flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-medium transition-all ${
             copied
               ? 'bg-green-500 text-white'
               : 'bg-[var(--muted)] hover:bg-[var(--border)] disabled:opacity-50'
@@ -55,20 +55,20 @@ export function EnglishPromptPanel() {
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
               </svg>
-              복사됨
+              <span>복사됨</span>
             </>
           ) : (
             <>
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
               </svg>
-              복사
+              <span>복사</span>
             </>
           )}
         </button>
       </div>
 
-      <div className="flex-1 p-4 overflow-y-auto">
+      <div className="flex-1 p-4 md:overflow-y-auto">
         {prompt ? (
           <p className="text-sm leading-relaxed whitespace-pre-wrap break-words">
             {prompt}

@@ -33,7 +33,7 @@ export function ElementPanel() {
   });
 
   return (
-    <div className="h-full flex flex-col">
+    <div className="md:h-full flex flex-col">
       <div className="p-4 border-b border-[var(--border)]">
         <h2 className="font-semibold">프롬프트 요소 선택</h2>
         <p className="text-xs text-[var(--muted-foreground)] mt-1">
@@ -41,7 +41,7 @@ export function ElementPanel() {
         </p>
       </div>
 
-      <div className="flex-1 overflow-y-auto">
+      <div className="flex-1 md:overflow-y-auto">
         {filteredCategories.map(category => (
           <CategoryAccordion
             key={category.id}

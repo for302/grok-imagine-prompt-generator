@@ -33,7 +33,7 @@ export function KoreanPromptPanel() {
   };
 
   return (
-    <div className="h-full flex flex-col">
+    <div className="md:h-full flex flex-col">
       <div className="p-4 border-b border-[var(--border)] flex items-center justify-between">
         <div>
           <h2 className="font-semibold">한글 프롬프트</h2>
@@ -68,7 +68,7 @@ export function KoreanPromptPanel() {
         </button>
       </div>
 
-      <div className="flex-1 p-4 overflow-y-auto">
+      <div className="flex-1 p-4 md:overflow-y-auto">
         {prompt ? (
           <p className="text-sm leading-relaxed whitespace-pre-wrap break-words">
             {prompt}
