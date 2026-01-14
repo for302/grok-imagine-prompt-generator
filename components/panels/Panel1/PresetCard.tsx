@@ -35,7 +35,7 @@ export function PresetCard({ preset, isSelected, onClick }: PresetCardProps) {
           <img
             src={preset.thumbnail}
             alt={preset.titleKo}
-            className="absolute inset-0 w-full h-full object-cover"
+            className="absolute inset-0 w-full h-full object-cover object-center"
             onError={() => setImageError(true)}
           />
         ) : (

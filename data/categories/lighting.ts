@@ -27,8 +27,11 @@ export const lighting: Category = {
         { id: 'dappled-moonlight', english: 'Dappled moonlight through blinds', korean: '블라인드 사이 달빛 얼룩', description: '로맨틱·밤·침실' },
         { id: 'practical-table-lamp', english: 'Practical table lamp warm', korean: '실내 테이블 램프 따뜻함', description: '아늑·친밀·카페' },
         { id: 'cinematic-spotlight', english: 'Cinematic spotlight dramatic', korean: '시네마틱 스포트라이트 드라마틱', description: '무대·공연·독백' },
+        { id: 'studio-spotlight-soft', english: 'Studio soft spotlight on face warm rim light', korean: '스튜디오 얼굴 소프트 스포트라이트 웜 림라이트', description: '스튜디오·방송·전문' },
+        { id: 'navy-blue-studio-lighting', english: 'Deep navy blue studio lighting', korean: '딥 네이비 블루 스튜디오 조명', description: '방송·뉴스·푸른' },
         { id: 'ambient-diffused-soft', english: 'Ambient diffused soft', korean: '주변 확산 부드러움', description: '자연·일상·평온' },
         { id: 'candlelight-flickering', english: 'Candlelight flickering intimate', korean: '촛불 깜빡임 친밀', description: '로맨스·고백·고전' },
+        { id: 'soft-cinematic-rim', english: 'Soft cinematic lighting gentle rim light warm glow', korean: '부드러운 시네마틱 조명 젠틀 림 라이트 따뜻한 빛', description: '영화적·로맨틱·황혼' },
       ]
     },
     {
@@ -49,6 +52,8 @@ export const lighting: Category = {
         { id: 'eerie-foggy-haze', english: 'Eerie foggy haze', korean: '섬뜩한 안개 안개', description: '호러·초자연·불안' },
         { id: 'vibrant-saturated-pop', english: 'Vibrant saturated pop', korean: '생생·채도 높음', description: '코미디·팝·에너지' },
         { id: 'soft-emotional-tones', english: 'Soft emotional color tones', korean: '감성적인 부드러운 컬러톤', description: '파스텔·따뜻함·감성' },
+        { id: 'soft-yellow-orange-lighting', english: 'Soft yellow-orange lighting warm cheerful', korean: '부드러운 노란-주황 조명 따뜻하고 밝은', description: '따뜻·밝은·노란빛' },
+        { id: 'pastel-tones-whimsical', english: 'Pastel tones whimsical joyful mood', korean: '파스텔 톤 기발하고 즐거운 분위기', description: '파스텔·기발·즐거움' },
         { id: 'muted-earthy-tones', english: 'Muted earthy natural tones', korean: '차분한 어스 톤 자연색', description: '자연스러운·브라운·베이지' },
       ]
     },
@@ -69,6 +74,8 @@ export const lighting: Category = {
         { id: 'bloom-glow-soft', english: 'Bloom glow soft highlights', korean: '블룸 글로우 부드러운 하이라이트', description: '꿈같음·마법·빛 과다' },
         { id: 'rainbow-prism-light', english: 'Rainbow prism refraction light beams', korean: '무지개 프리즘 빛 굴절', description: '파스텔·스펙트럼·반짝임' },
         { id: 'pastel-bokeh-sparkles', english: 'Pastel bokeh sparkles background', korean: '파스텔 보케 반짝이 배경', description: '부드러운·반짝임·몽환' },
+        { id: 'fire-magic-explosion', english: 'Fire and orange magic energy explosion', korean: '불꽃·주황 마법 에너지 폭발', description: '판타지·전투·폭발' },
+        { id: 'seamless-transition-warp', english: 'Seamless smooth transition warp', korean: '부드러운 전환 워프', description: '자연스러운·컷 없는·이동' },
       ]
     }
   ]

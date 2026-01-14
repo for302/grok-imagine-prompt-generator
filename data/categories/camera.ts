@@ -51,6 +51,7 @@ export const camera: Category = {
       options: [
         { id: 'static-locked-camera', english: 'Static locked-off camera', korean: '스태틱 록드-오프 카메라', description: '완전 고정, 가장 안정적', videoOnly: true },
         { id: 'gentle-slow-zoomin', english: 'Gentle slow zoom-in', korean: '젠틀 슬로우 줌인', description: '천천히 가까워짐, 긴장 고조', videoOnly: true },
+        { id: 'rapid-zoom-into', english: 'Rapid zoom-in to subject', korean: '빠른 줌인 주체로', description: '빠르게 가까워짐, 집중·긴박', videoOnly: true },
         { id: 'subtle-camera-drift', english: 'Subtle camera drift / Push-in', korean: '서브틀 카메라 드리프트 / 푸시인', description: '미세 이동, 자연스러운 생동감', videoOnly: true },
         { id: 'slow-pan-leftright', english: 'Slow pan left/right', korean: '슬로우 팬 레프트/라이트', description: '천천히 좌우, 환경 탐색', videoOnly: true },
         { id: 'slow-orbit-360', english: 'Slow orbit 360', korean: '슬로우 오빗 360', description: '천천히 360도 회전, 주체 전체 관찰', videoOnly: true },

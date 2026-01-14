@@ -30,6 +30,7 @@ export const technical: Category = {
       options: [
         { id: 'high-cinematic-quality', english: 'High cinematic quality / Ultra-detailed', korean: '고품질 시네마틱 / 초상세', description: '영화급·현실적·디테일 강조' },
         { id: '4k-resolution', english: '4K resolution / Ultra HD', korean: '4K 해상도 / 울트라 HD', description: '고해상도·선명·스크린용' },
+        { id: '8k-resolution', english: '8K resolution / Ultra high quality', korean: '8K 해상도 / 초고퀄리티', description: '최고해상도·극상세·프리미엄' },
         { id: '24fps-cinematic', english: '24fps cinematic motion blur', korean: '24fps 시네마틱 모션 블러', description: '영화 같은 부드러움', videoOnly: true },
         { id: '35mm-film-grain-quality', english: '35mm film grain textured', korean: '35mm 필름 그레인 질감', description: '빈티지·현실적·시네마틱' },
         { id: 'locked-temporal-consistency', english: 'Locked temporal consistency', korean: '시간적 일관성 고정', description: '프레임 간 얼굴·움직임 변하지 않음', videoOnly: true },
