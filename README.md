@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Grok 영상 제작용 프롬프트 생성기
 
-## Getting Started
+Grok Imagine AI를 위한 실시간 이미지/영상 프롬프트 생성기입니다. AI 없이 미리 정의된 500+ 프롬프트 요소를 조합하여 한국어/영어 프롬프트를 생성합니다.
 
-First, run the development server:
+![Main Screenshot](docs/screenshot-main.png)
+
+## 주요 기능
+
+### 1. 이중 언어 프롬프트 생성
+- **영어 프롬프트**: Grok AI에 직접 사용 가능한 영어 프롬프트
+- **한글 프롬프트**: 이해하기 쉬운 한국어 번역 프롬프트
+- 실시간 글자 수 표시 (400~700자 적정 범위 안내)
+
+### 2. 프롬프트 조합 예시 (프리셋)
+- 10개의 영상 프롬프트 프리셋 제공
+- 썸네일 클릭으로 즉시 프롬프트 옵션 자동 선택
+- 이미지/영상 모드 전환 지원
+
+### 3. 6개 카테고리 프롬프트 요소
+| 카테고리 | 설명 |
+|---------|------|
+| **장면 유형** | 영화 장르, 판타지, SF, 애니메이션, 자연/분위기, 아트 스타일 |
+| **카메라** | 앵글, 샷 타입, 렌즈, 카메라 움직임 (영상 전용) |
+| **주체 & 표정/행동** | 나이/성별, 종족, 스타일, 의상, 표정, 행동, 감정 |
+| **조명 & 분위기** | 조명 스타일, 분위기 색상, 시각 효과 |
+| **음성 & 대사** | 음성 스타일 (영상 전용) |
+| **기술적/제한 조건** | 해상도, 품질, 화면비 |
+
+### 4. 편의 기능
+- **원클릭 복사**: 영어/한글 프롬프트 각각 복사 버튼
+- **아코디언 UI**: 카테고리별 접기/펼치기
+- **선택 항목 배지**: 각 카테고리별 선택된 옵션 수 표시
+- **다크 모드**: 시스템 설정 연동 + 수동 전환
+
+## 기술 스택
+
+- **Framework**: Next.js 16 (App Router, Turbopack)
+- **Styling**: Tailwind CSS + 다크모드
+- **State**: Zustand (localStorage persist)
+- **Language**: TypeScript
+- **Icons**: Lucide React
+
+## 시작하기
+
+### 설치
+
+```bash
+npm install
+```
+
+### 개발 서버 실행
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+[http://localhost:3000](http://localhost:3000)에서 확인
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 프로덕션 빌드
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+## 프로젝트 구조
 
-To learn more about Next.js, take a look at the following resources:
+```
+Grok_Imagine/
+├── app/                    # Next.js App Router
+├── components/
+│   ├── layout/            # Header, InfoModal
+│   └── panels/            # 4패널 UI 컴포넌트
+├── data/
+│   ├── categories/        # 6개 카테고리 옵션 데이터
+│   └── presets/           # 프리셋 데이터
+├── store/                 # Zustand 상태 관리
+├── lib/                   # 프롬프트 빌더 로직
+└── public/thumbnails/     # 프리셋 썸네일 GIF
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 라이선스
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT License
