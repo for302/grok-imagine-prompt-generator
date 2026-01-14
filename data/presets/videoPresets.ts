@@ -4,18 +4,15 @@ export const videoPresets: Preset[] = [
   {
     id: 'preset-01',
     number: 1,
-    titleEn: 'Classic Romantic Confession',
-    titleKo: '클래식 로맨틱 고백',
-    thumbnail: '/thumbnails/preset-01.svg',
+    titleEn: 'Magical Pomeranian Rainbow Bubbles',
+    titleKo: '마법 포메라니안 무지개 버블',
+    thumbnail: '/thumbnails/preset-01.gif',
     mode: 'video',
     selectedOptions: [
-      'romantic-drama-intimate', 'static-locked-camera', 'medium-closeup',
-      'young-woman-early20s', 'elegant-long-hair', 'soft-melancholic-gaze',
-      'glistening-tearful-eyes', 'flowing-elegant-dress', 'soft-dramatic-lighting',
-      'golden-hour-warm-glow', 'voice-0314', 'breathy-sigh-between',
-      'lipsync-perfect', 'natural-breath-pauses', 'shallow-dof-bokeh',
-      'no-subtitles', 'no-bgm', 'high-cinematic-quality', '4k-resolution',
-      'muted-tones-desaturated'
+      'magical-floating-midair', 'rainbow-bubbles-dreamy', 'whimsical-fantasy-cute', 'kawaii-cute-chibi',
+      'medium-closeup', 'static-locked-camera', 'pomeranian-fluffy', 'puppy-adorable',
+      'highkey-harsh-bright', 'vibrant-saturated-pop', 'rainbow-prism-light', 'pastel-bokeh-sparkles',
+      'bloom-glow-soft', 'ambient-diffused-soft', 'high-cinematic-quality', '4k-resolution'
     ]
   },
   {
@@ -23,7 +20,7 @@ export const videoPresets: Preset[] = [
     number: 2,
     titleEn: 'Intense Action Hero Monologue',
     titleKo: '강렬한 액션 히어로 독백',
-    thumbnail: '/thumbnails/preset-02.svg',
+    thumbnail: '/thumbnails/preset-02.gif',
     mode: 'video',
     selectedOptions: [
       'action-high-energy', 'subtle-camera-drift', 'low-angle-shot',
@@ -39,7 +36,7 @@ export const videoPresets: Preset[] = [
     number: 3,
     titleEn: 'Horror Suspense Build',
     titleKo: '호러 서스펜스 빌드업',
-    thumbnail: '/thumbnails/preset-03.svg',
+    thumbnail: '/thumbnails/preset-03.gif',
     mode: 'video',
     selectedOptions: [
       'horror-thriller-tension', 'gentle-slow-zoomin', 'extreme-closeup',
@@ -55,7 +52,7 @@ export const videoPresets: Preset[] = [
     number: 4,
     titleEn: 'Sci-Fi Futuristic Dialogue',
     titleKo: 'SF 미래적 대화',
-    thumbnail: '/thumbnails/preset-04.svg',
+    thumbnail: '/thumbnails/preset-04.gif',
     mode: 'video',
     selectedOptions: [
       'scifi-moody-futuristic', 'static-locked-camera', 'over-the-shoulder',
@@ -71,7 +68,7 @@ export const videoPresets: Preset[] = [
     number: 5,
     titleEn: 'Comedy Light-Hearted Banter',
     titleKo: '코미디 경쾌한 대화',
-    thumbnail: '/thumbnails/preset-05.svg',
+    thumbnail: '/thumbnails/preset-05.gif',
     mode: 'video',
     selectedOptions: [
       'comedy-lighthearted', 'light-parallax-shift', 'two-shot',
@@ -87,7 +84,7 @@ export const videoPresets: Preset[] = [
     number: 6,
     titleEn: 'Drama Emotional Breakdown',
     titleKo: '드라마 감정 폭발',
-    thumbnail: '/thumbnails/preset-06.svg',
+    thumbnail: '/thumbnails/preset-06.gif',
     mode: 'video',
     selectedOptions: [
       'drama-emotional-closeup', 'subtle-camera-drift', 'profile-shot',
@@ -103,7 +100,7 @@ export const videoPresets: Preset[] = [
     number: 7,
     titleEn: 'Fantasy Epic Quest',
     titleKo: '판타지 에픽 퀘스트',
-    thumbnail: '/thumbnails/preset-07.svg',
+    thumbnail: '/thumbnails/preset-07.gif',
     mode: 'video',
     selectedOptions: [
       'fantasy-warrior-epic', 'slow-pan-leftright', 'wide-shot',
@@ -119,7 +116,7 @@ export const videoPresets: Preset[] = [
     number: 8,
     titleEn: 'Thriller Detective Interrogation',
     titleKo: '스릴러 탐정 심문',
-    thumbnail: '/thumbnails/preset-08.svg',
+    thumbnail: '/thumbnails/preset-08.gif',
     mode: 'video',
     selectedOptions: [
       'crime-noir-detective', 'dutch-angle', 'reaction-shot',
@@ -135,7 +132,7 @@ export const videoPresets: Preset[] = [
     number: 9,
     titleEn: 'Romantic Intimate Whisper',
     titleKo: '로맨틱 친밀한 속삭임',
-    thumbnail: '/thumbnails/preset-09.svg',
+    thumbnail: '/thumbnails/preset-09.gif',
     mode: 'video',
     selectedOptions: [
       'intimate-cozy-warm', 'static-locked-camera', 'medium-closeup',
@@ -151,7 +148,7 @@ export const videoPresets: Preset[] = [
     number: 10,
     titleEn: 'War Epic Command',
     titleKo: '전쟁 에픽 명령',
-    thumbnail: '/thumbnails/preset-10.svg',
+    thumbnail: '/thumbnails/preset-10.gif',
     mode: 'video',
     selectedOptions: [
       'war-epic-battlefield', 'crane-descending', 'cowboy-shot',
@@ -167,7 +164,7 @@ export const videoPresets: Preset[] = [
     number: 11,
     titleEn: 'Cyberpunk Hacker Conspiracy',
     titleKo: '사이버펑크 해커 음모',
-    thumbnail: '/thumbnails/preset-11.svg',
+    thumbnail: '/thumbnails/preset-11.gif',
     mode: 'video',
     selectedOptions: [
       'cyberpunk-hacker-lair', 'fpv-flyby', 'pov-shot',
@@ -183,7 +180,7 @@ export const videoPresets: Preset[] = [
     number: 12,
     titleEn: 'Mythical Creature Soaring',
     titleKo: '신화적 생물 비상',
-    thumbnail: '/thumbnails/preset-12.svg',
+    thumbnail: '/thumbnails/preset-12.gif',
     mode: 'video',
     selectedOptions: [
       'mythical-creature-soaring', 'slow-orbit-360', 'birds-eye-view',
@@ -198,7 +195,7 @@ export const videoPresets: Preset[] = [
     number: 13,
     titleEn: 'Surreal Dali Dream',
     titleKo: '초현실 달리 꿈',
-    thumbnail: '/thumbnails/preset-13.svg',
+    thumbnail: '/thumbnails/preset-13.gif',
     mode: 'video',
     selectedOptions: [
       'surreal-dali-melting', 'barrel-roll-vortex', 'fisheye-lens',
@@ -212,17 +209,15 @@ export const videoPresets: Preset[] = [
   {
     id: 'preset-14',
     number: 14,
-    titleEn: 'Steampunk Victorian Adventure',
-    titleKo: '스팀펑크 빅토리안 모험',
-    thumbnail: '/thumbnails/preset-14.svg',
+    titleEn: 'Steampunk Victorian Hyperreal',
+    titleKo: '스팀펑크 빅토리안 하이퍼리얼',
+    thumbnail: '/thumbnails/preset-14.gif',
     mode: 'video',
     selectedOptions: [
-      'steampunk-fantasy-victorian', 'tracking-backward', 'insert-shot',
-      'adult-30s-woman', 'pierced-alternative', 'playful-teasing',
-      'slight-head-tilt', 'oil-painting-textured', 'warm-practical-glow',
-      'voice-0123', 'natural-fillers', 'lipsync-perfect',
-      'fidgeting-fingers', 'vaporwave-retro-aesthetic', 'no-bgm',
-      'high-cinematic-quality', 'locked-temporal-consistency'
+      'steampunk-fantasy-victorian', 'hyperrealism-ultradetailed', 'insert-shot', 'tracking-backward',
+      'adult-30s-woman', 'pierced-alternative', 'slight-head-tilt', 'fidgeting-fingers', 'playful-teasing',
+      'warm-practical-glow', 'voice-0123', 'natural-fillers', 'lipsync-perfect',
+      'no-bgm', 'high-cinematic-quality', 'locked-temporal-consistency'
     ]
   },
   {
@@ -230,7 +225,7 @@ export const videoPresets: Preset[] = [
     number: 15,
     titleEn: 'Underwater Mermaid Lament',
     titleKo: '수중 인어 애가',
-    thumbnail: '/thumbnails/preset-15.svg',
+    thumbnail: '/thumbnails/preset-15.gif',
     mode: 'video',
     selectedOptions: [
       'underwater-dreamy-coral', 'light-parallax-shift', 'macro-lens',
@@ -246,7 +241,7 @@ export const videoPresets: Preset[] = [
     number: 16,
     titleEn: 'Pixel Art Retro Hero',
     titleKo: '픽셀 아트 레트로 히어로',
-    thumbnail: '/thumbnails/preset-16.svg',
+    thumbnail: '/thumbnails/preset-16.gif',
     mode: 'video',
     selectedOptions: [
       'pixel-art-retro-game', 'whip-pan-sudden', 'lowpoly-geometric-minimalist',
@@ -261,7 +256,7 @@ export const videoPresets: Preset[] = [
     number: 17,
     titleEn: 'Abstract Color Emotion',
     titleKo: '추상 색채 감정',
-    thumbnail: '/thumbnails/preset-17.svg',
+    thumbnail: '/thumbnails/preset-17.gif',
     mode: 'video',
     selectedOptions: [
       'abstract-color-burst', 'hyperlapse-pushin', 'ageless-ethereal-female',
@@ -276,7 +271,7 @@ export const videoPresets: Preset[] = [
     number: 18,
     titleEn: 'Historical Period Betrayal',
     titleKo: '역사 시대 배신',
-    thumbnail: '/thumbnails/preset-18.svg',
+    thumbnail: '/thumbnails/preset-18.gif',
     mode: 'video',
     selectedOptions: [
       'historical-period-drama', 'slow-pan-leftright', 'establishing-shot',
@@ -291,7 +286,7 @@ export const videoPresets: Preset[] = [
     number: 19,
     titleEn: 'Vaporwave Nostalgic Reflection',
     titleKo: '베이퍼웨이브 향수 어린 회상',
-    thumbnail: '/thumbnails/preset-19.svg',
+    thumbnail: '/thumbnails/preset-19.gif',
     mode: 'video',
     selectedOptions: [
       'vaporwave-retro-aesthetic', 'subtle-camera-drift', '135mm-lens',
@@ -306,7 +301,7 @@ export const videoPresets: Preset[] = [
     number: 20,
     titleEn: 'Elemental Nature Ritual',
     titleKo: '원소 자연 의식',
-    thumbnail: '/thumbnails/preset-20.svg',
+    thumbnail: '/thumbnails/preset-20.gif',
     mode: 'video',
     selectedOptions: [
       'elemental-nature-fantasy', 'crane-descending', '35mm-lens',
@@ -321,7 +316,7 @@ export const videoPresets: Preset[] = [
     number: 21,
     titleEn: 'Holographic Entity Debate',
     titleKo: '홀로그램 존재 토론',
-    thumbnail: '/thumbnails/preset-21.svg',
+    thumbnail: '/thumbnails/preset-21.gif',
     mode: 'video',
     selectedOptions: [
       'holographic-cyber-world', 'bullet-time-frozen', 'anamorphic-lens',
@@ -336,7 +331,7 @@ export const videoPresets: Preset[] = [
     number: 22,
     titleEn: 'Bio-Luminescent Guardian',
     titleKo: '발광 숲 수호자',
-    thumbnail: '/thumbnails/preset-22.svg',
+    thumbnail: '/thumbnails/preset-22.gif',
     mode: 'video',
     selectedOptions: [
       'mystical-foggy-forest', 'snorricam-chestmounted', 'macro-lens',
@@ -351,7 +346,7 @@ export const videoPresets: Preset[] = [
     number: 23,
     titleEn: 'Synthwave Time Traveler',
     titleKo: '신스웨이브 시간 여행자',
-    thumbnail: '/thumbnails/preset-23.svg',
+    thumbnail: '/thumbnails/preset-23.gif',
     mode: 'video',
     selectedOptions: [
       'retro-futuristic-synthwave', 'hyperlapse-pushin', 'fisheye-lens',
@@ -366,7 +361,7 @@ export const videoPresets: Preset[] = [
     number: 24,
     titleEn: 'Ink Wash Phantom',
     titleKo: '수묵화 망령',
-    thumbnail: '/thumbnails/preset-24.svg',
+    thumbnail: '/thumbnails/preset-24.gif',
     mode: 'video',
     selectedOptions: [
       'ink-wash-traditional-asian', 'slow-orbit-360', 'sumie-ink-wash-fantasy',
@@ -381,7 +376,7 @@ export const videoPresets: Preset[] = [
     number: 25,
     titleEn: 'Low-Poly Alien Diplomat',
     titleKo: '로우폴리 외계 외교관',
-    thumbnail: '/thumbnails/preset-25.svg',
+    thumbnail: '/thumbnails/preset-25.gif',
     mode: 'video',
     selectedOptions: [
       'lowpoly-geometric-minimalist', 'barrel-roll-vortex', 'birds-eye-view',
@@ -396,7 +391,7 @@ export const videoPresets: Preset[] = [
     number: 26,
     titleEn: 'Erotic Shadow Play',
     titleKo: '에로틱 그림자 연극',
-    thumbnail: '/thumbnails/preset-26.svg',
+    thumbnail: '/thumbnails/preset-26.gif',
     mode: 'video',
     selectedOptions: [
       'erotic-suggestive-moody', 'whip-pan-sudden', 'backlighting-silhouette',
@@ -410,7 +405,7 @@ export const videoPresets: Preset[] = [
     number: 27,
     titleEn: 'Musical Hologram Performance',
     titleKo: '뮤지컬 홀로그램 공연',
-    thumbnail: '/thumbnails/preset-27.svg',
+    thumbnail: '/thumbnails/preset-27.gif',
     mode: 'video',
     selectedOptions: [
       'musical-vibrant-performance', 'fpv-flyby', 'anamorphic-lens',
@@ -425,7 +420,7 @@ export const videoPresets: Preset[] = [
     number: 28,
     titleEn: 'Post-Cyberpunk Redemption',
     titleKo: '포스트 사이버펑크 구원',
-    thumbnail: '/thumbnails/preset-28.svg',
+    thumbnail: '/thumbnails/preset-28.gif',
     mode: 'video',
     selectedOptions: [
       'post-cyberpunk-rainy', 'tracking-backward', 'profile-shot',
@@ -440,7 +435,7 @@ export const videoPresets: Preset[] = [
     number: 29,
     titleEn: 'Abstract Consciousness Stream',
     titleKo: '추상 의식의 흐름',
-    thumbnail: '/thumbnails/preset-29.svg',
+    thumbnail: '/thumbnails/preset-29.gif',
     mode: 'video',
     selectedOptions: [
       'surreal-abstract-haze', 'hyperlapse-pushin', 'ageless-ethereal-male',
@@ -455,7 +450,7 @@ export const videoPresets: Preset[] = [
     number: 30,
     titleEn: 'Desert Alien Symbiosis',
     titleKo: '사막 외계 공생',
-    thumbnail: '/thumbnails/preset-30.svg',
+    thumbnail: '/thumbnails/preset-30.gif',
     mode: 'video',
     selectedOptions: [
       'desert-alien-vast', 'crane-descending', '24mm-lens',

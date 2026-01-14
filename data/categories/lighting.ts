@@ -48,6 +48,8 @@ export const lighting: Category = {
         { id: 'neon-cyber-glow', english: 'Neon cyber glow', korean: '네온 사이버 빛', description: '미래·밤·흥분' },
         { id: 'eerie-foggy-haze', english: 'Eerie foggy haze', korean: '섬뜩한 안개 안개', description: '호러·초자연·불안' },
         { id: 'vibrant-saturated-pop', english: 'Vibrant saturated pop', korean: '생생·채도 높음', description: '코미디·팝·에너지' },
+        { id: 'soft-emotional-tones', english: 'Soft emotional color tones', korean: '감성적인 부드러운 컬러톤', description: '파스텔·따뜻함·감성' },
+        { id: 'muted-earthy-tones', english: 'Muted earthy natural tones', korean: '차분한 어스 톤 자연색', description: '자연스러운·브라운·베이지' },
       ]
     },
     {
@@ -65,6 +67,8 @@ export const lighting: Category = {
         { id: 'light-leaks-film', english: 'Light leaks film effect', korean: '라이트 릭 필름 효과', description: '빈티지·필름·따뜻' },
         { id: 'god-rays-volumetric-fog', english: 'God rays volumetric through fog', korean: '갓 레이 체적 안개 통과', description: '신성·숲·아침' },
         { id: 'bloom-glow-soft', english: 'Bloom glow soft highlights', korean: '블룸 글로우 부드러운 하이라이트', description: '꿈같음·마법·빛 과다' },
+        { id: 'rainbow-prism-light', english: 'Rainbow prism refraction light beams', korean: '무지개 프리즘 빛 굴절', description: '파스텔·스펙트럼·반짝임' },
+        { id: 'pastel-bokeh-sparkles', english: 'Pastel bokeh sparkles background', korean: '파스텔 보케 반짝이 배경', description: '부드러운·반짝임·몽환' },
       ]
     }
   ]

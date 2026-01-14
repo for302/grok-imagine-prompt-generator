@@ -38,6 +38,11 @@ export const subject: Category = {
       nameKo: '인물 종족·종류',
       options: [
         { id: 'human-realistic', english: 'Human realistic woman', korean: '현실적 인간 여성', description: '포토리얼·일상·드라마' },
+        { id: 'korean-woman', english: 'Korean woman', korean: '한국인 여성', description: '한국인·아시안 뷰티' },
+        { id: 'korean-man', english: 'Korean man', korean: '한국인 남성', description: '한국인·아시안' },
+        { id: 'korean-couple', english: 'Young Korean couple', korean: '젊은 한국인 커플', description: '커플·연인·로맨스' },
+        { id: 'bride-wedding-dress', english: 'Bride in elegant wedding dress', korean: '우아한 웨딩드레스 신부', description: '신부·웨딩·레이스' },
+        { id: 'groom-suit', english: 'Groom in slim-fit suit', korean: '슬림핏 수트 신랑', description: '신랑·정장·캐주얼' },
         { id: 'elf-graceful', english: 'Elf graceful pointed ears', korean: '엘프 우아한 뾰족 귀', description: '판타지·숲·마법' },
         { id: 'orc-muscular', english: 'Orc muscular green-skinned', korean: '오크 근육질 녹색 피부', description: '다크 판타지·전투' },
         { id: 'dragonborn-scaled', english: 'Dragonborn scaled humanoid', korean: '드래곤본 비늘 인간형', description: '판타지·화염·위압' },
@@ -48,6 +53,17 @@ export const subject: Category = {
         { id: 'fairy-winged', english: 'Fairy delicate winged', korean: '요정 섬세한 날개', description: '동화·마법·작고 귀여운' },
         { id: 'mermaid-aquatic', english: 'Mermaid aquatic scaled tail', korean: '인어 수중 비늘 꼬리', description: '바다·신비·로맨틱' },
         { id: 'ghost-translucent', english: 'Ghost translucent spectral', korean: '유령 반투명 영혼', description: '호러·회상·슬픔' },
+        { id: 'cat-domestic', english: 'Domestic cat', korean: '고양이', description: '반려묘·귀여움·일상' },
+        { id: 'dog-domestic', english: 'Domestic dog', korean: '강아지', description: '반려견·충성·활발' },
+        { id: 'kitten-playful', english: 'Playful kitten', korean: '장난꾸러기 아기 고양이', description: '아기 고양이·귀여움·장난' },
+        { id: 'puppy-adorable', english: 'Adorable puppy', korean: '사랑스러운 강아지', description: '아기 강아지·귀여움·활발' },
+        { id: 'pomeranian-fluffy', english: 'Fluffy cream-white Pomeranian puppy', korean: '크림색 솜털 포메라니안 강아지', description: '포메·복실복실·귀여움' },
+        { id: 'cat-fluffy', english: 'Fluffy long-haired cat', korean: '복슬복슬 장모 고양이', description: '페르시안·랙돌·우아' },
+        { id: 'dog-golden-retriever', english: 'Golden retriever', korean: '골든 리트리버', description: '대형견·친근·가족' },
+        { id: 'teddy-bears-plush', english: 'Cute chubby plush teddy bears', korean: '귀여운 통통한 봉제 테디베어', description: '인형·귀여움·카와이' },
+        { id: 'kawaii-plush-toys', english: 'Kawaii style plush toys', korean: '카와이 스타일 봉제 인형', description: '파스텔·둥근 얼굴·작은 눈' },
+        { id: 'cute-furry-monsters', english: 'Cute furry monsters with horns', korean: '귀여운 털복숭이 뿔 달린 몬스터', description: '픽사·몬스터·귀여움' },
+        { id: 'pixar-style-creatures', english: 'Pixar-style adorable creatures', korean: '픽사 스타일 사랑스러운 생물', description: '3D·큰 눈·표정 풍부' },
       ]
     },
     {
@@ -124,6 +140,13 @@ export const subject: Category = {
         { id: 'slow-head-shake', english: 'Slow head shake denial', korean: '천천히 고개 저음', description: '부정·거부·슬픔', videoOnly: true },
         { id: 'sudden-sharp-inhale', english: 'Sudden sharp inhale surprise', korean: '갑작스러운 날카로운 숨 들이마심', description: '충격·서프라이즈', videoOnly: true },
         { id: 'fingers-clenching-fist', english: 'Fingers clenching fist anger', korean: '손가락 쥐어짜는 주먹', description: '분노·결의' },
+        { id: 'cat-looking-camera', english: 'Cat looking directly at camera curious', korean: '카메라 응시하는 호기심 어린 고양이', description: '고양이·호기심·귀여움' },
+        { id: 'cat-walking-away', english: 'Cat walking away disinterested', korean: '무관심하게 걸어가는 고양이', description: '고양이·도도함·일상' },
+        { id: 'cat-playing-playful', english: 'Cat playing playfully', korean: '장난치며 노는 고양이', description: '고양이·장난·활발' },
+        { id: 'dog-tilting-head', english: 'Dog tilting head curious', korean: '고개 갸우뚱하는 강아지', description: '강아지·호기심·귀여움' },
+        { id: 'pet-relaxing-cozy', english: 'Pet relaxing in cozy spot', korean: '아늑한 곳에서 쉬는 반려동물', description: '휴식·평화·일상' },
+        { id: 'couple-holding-hands', english: 'Couple holding hands walking together', korean: '손잡고 함께 걷는 커플', description: '로맨스·친밀·사랑' },
+        { id: 'couple-warm-smiles', english: 'Couple looking at each other with warm smiles', korean: '따뜻한 미소로 서로 바라보는 커플', description: '사랑·행복·친밀' },
       ]
     },
     {

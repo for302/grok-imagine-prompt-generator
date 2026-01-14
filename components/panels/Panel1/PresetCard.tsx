@@ -1,5 +1,6 @@
 'use client';
 
+import { useState } from 'react';
 import { Preset } from '@/types';
 import { usePromptStore } from '@/store/promptStore';
 
@@ -12,6 +13,7 @@ interface PresetCardProps {
 export function PresetCard({ preset, isSelected, onClick }: PresetCardProps) {
   const { favorites, toggleFavorite } = usePromptStore();
   const isFavorite = favorites.includes(preset.id);
+  const [imageError, setImageError] = useState(false);
 
   const handleFavoriteClick = (e: React.MouseEvent) => {
     e.stopPropagation();
@@ -28,10 +30,21 @@ export function PresetCard({ preset, isSelected, onClick }: PresetCardProps) {
       }`}
     >
       {/* 썸네일 */}
-      <div className="aspect-video bg-gradient-to-br from-[var(--muted)] to-[var(--border)] flex items-center justify-center">
-        <span className="text-4xl font-bold text-[var(--muted-foreground)]/30">
-          {preset.number}
-        </span>
+      <div className="aspect-video bg-gradient-to-br from-[var(--muted)] to-[var(--border)] relative overflow-hidden">
+        {!imageError && preset.thumbnail ? (
+          <img
+            src={preset.thumbnail}
+            alt={preset.titleKo}
+            className="absolute inset-0 w-full h-full object-cover"
+            onError={() => setImageError(true)}
+          />
+        ) : (
+          <div className="absolute inset-0 flex items-center justify-center">
+            <span className="text-4xl font-bold text-[var(--muted-foreground)]/30">
+              {preset.number}
+            </span>
+          </div>
+        )}
       </div>
 
       {/* 즐겨찾기 버튼 */}
